@@ -1,0 +1,7 @@
+https://youtu.be/9K1Kd9mZL8g
+https://www.npmjs.com/package/aframe-text-geometry-component
+https://aframe-school-registry.glitch.me/solution.html
+https://aframe.io/aframe-school/#/8
+Homer 3D https://www.youtube.com/watch?v=7824c5YAsEA
+https://github.com/rowbottomn/aframe-fonts  fors for Aframe
+https://github.com/rowbottomn/aframe-fonts/tree/master/fonts

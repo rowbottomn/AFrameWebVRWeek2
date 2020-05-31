@@ -1,0 +1,75 @@
+<!-- Nathan Rowbottom. SNP STEAM Academy May 10 2020 -->
+<!-- For AVS3O/M week 1 of WebVR -->
+<!-- Note this uses the syntax of Aframe 1.04 -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Aframe Week 2 - 1 : Hello Assets</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--AFrame library call-->
+    
+  </head>
+  <body>
+    <script src="script.js"></script>
+    
+    <div id ="container">
+      <div id="banner" >
+        <h1 id = "title">
+          Adding Assets to AFrame Projects
+        </h1>
+      </div>
+
+      <div id = "navbar">
+        <a class = "button" href="1_HelloSceneInspector.html"><i class="material-icons">arrow_back</i></a>
+        <a class = "button" href="index.html"><i class="material-icons" >home</i></a>
+        <a class = "button" href="3_HelloAnimations.html"><i class="material-icons">arrow_forward</i></a>
+      </div >
+      <div id ="content">
+        <h2 class = "subtitle">
+          Adding Assets to AFrame Projects
+        </h2>
+        <p class = "content">
+          Last week we made some cool projects in AFrame.  But if you want to really make amazing things, you will need to learn how to let Aframe know about larger, more complicated items you want to use in your scenes. They might be 3D models, music, video or textures.<br>
+        
+          <a href = "https://www.flickr.com/groups/equirectangular/pool/with/49804698558/">Go to this site to find 360 images</a> that we can use for our skybox. <b>Be careful to not get too big an image</b> Select one and drag it into your repl as I show in the video below.
+          <i style="color:red">Protip...click fullscreen on video.</i>
+        <div class="img_holder">
+            <iframe src="https://www.loom.com/embed/42e0aaa28130438491b97d85ebcb39ab" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+        </div>
+          Once you have a large image, it might take a awhile for someone's browser to load the image or other media up. It would look awkward if some things loaded up but others did not. For this reason, we are going to preload and cache all assets for the page in a special asset section.
+
+        <br>
+        Start a repl and follow along with the video lesson below.
+        You will need the below code.
+        <script src="https://gist.github.com/rowbottomn/3da8ba0c5a7d645e4541ba0a86063b9b.js"></script>
+        </p>
+        <h3>Video Lesson</h3>
+        <i style="color:red">Protip...click fullscreen on video.</i>
+        <div class="img_holder">
+            <iframe src="https://www.loom.com/embed/20382a53b041438ab7307caa052d0ccf" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+        </div>
+        <h3>New Code</h3>
+        <div class="img_holder">
+          <img class = "centered_img"  src="/assets/images/2-2code.png">
+        </div>
+        <h3>Objective</h3>
+        <div class="img_holder">
+          <img class = "centered_img"  src="/assets/images/2-2objective.png">
+        </div>
+      </div>
+      
+      <div id = "navbar">
+        <a class = "button" href="1_HelloSceneInspector.html"><i class="material-icons">arrow_back</i></a>
+        <a class = "button" href="index.html"><i class="material-icons" >home</i></a>
+        <a class = "button" href="3_HelloAnimations.html"><i class="material-icons">arrow_forward</i></a>
+      </div >
+    </div>
+
+  </body>
+</html>
